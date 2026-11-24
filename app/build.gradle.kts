@@ -36,6 +36,12 @@ android {
 }
 
 dependencies {
+    // Jetpack Glance (Lab 14)
+    implementation("androidx.glance:glance-appwidget:1.1.0")
+    implementation("androidx.glance:glance-material3:1.1.0")
+    implementation("androidx.glance:glance-material:1.1.0")
+
+    // Compose y AndroidX
     implementation(platform(libs.androidx.compose.bom))
     implementation(libs.androidx.activity.compose)
     implementation(libs.androidx.compose.material3)
